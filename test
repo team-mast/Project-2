@@ -1,1 +1,8 @@
-test
+test lines to generate sequences:
+
+sclDTL6= accl.getSequence("DTL6")
+sclCCL1= accl.getSequence("CCL1")
+sclCCL2= accl.getSequence("CCL2")
+sclCCL3= accl.getSequence("CCL3")
+sclCCL4= accl.getSequence("CCL4")
+accSeq = AcceleratorSeqCombo("SEQUENCE", [sclCCL1,sclCCL2,sclCCL3,sclCCL4])
